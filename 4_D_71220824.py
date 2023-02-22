@@ -2,9 +2,6 @@ nam = input("Masukan Nama Lengkap Anda: ")
 pro = input("Masukan Prodi Anda: ")
 nil = input("Masukan Nilai (dalam huruf) yang Anda Dapat: ")
 try:   
-    nil = int(nil)
-    print("inputan masbro ga valid")
-except:
     if nil == 'A':
         print("Nilai masbro 4.00, Mantap kali masbro satu ini")
     elif nil == 'A-':
@@ -25,5 +22,7 @@ except:
         print("Nilai masbro 0, sudah tidak tertolong")
     else:
         print("inputan masbro ga valid")
+except:
+    ()
 
     
